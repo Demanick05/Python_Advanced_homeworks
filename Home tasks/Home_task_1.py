@@ -45,7 +45,6 @@ def catalog_finder(url_list):
     Дописать функцию, которая принимает список URL, а возвращает
     список только тех URL, в которых есть /catalog/
     """
-    # your code here
     result_list = []
     for i in url_list:
         if "catalog" in i:
